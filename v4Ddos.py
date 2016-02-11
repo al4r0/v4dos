@@ -52,6 +52,8 @@ if len(sys.argv) >= 3:
          threads.append(conexion)
          conexion.start()
 
+      print "Empezando el ataque (+ web online | - web offline):\n"
+
    print "\nCreando conexiones...\n"
    principal()
    while activo:
