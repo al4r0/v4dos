@@ -1,10 +1,4 @@
-       _  _   ____      _           
-__   _| || | |  _ \  __| | ___  ___ 
-\ \ / / || |_| | | |/ _` |/ _ \/ __|
- \ V /|__   _| |_| | (_| | (_) \__ \
-  \_/    |_| |____/ \__,_|\___/|___/
-                                    
-
+# v4Ddos
 
 v4Ddos.py es un script que permite probar el número de conexiones que puede soportar una web.
 
