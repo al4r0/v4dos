@@ -16,7 +16,7 @@ print ' \ V /|__   _| |_| | (_| | (_) \__ \\'
 print '  \_/    |_| |____/ \__,_|\___/|___/'
 print '                                    '
 
-print '\nv4Ddos.py Script creado por v4char, ataque a la capa 7 protocolo TCP'
+print '\nv4Ddos.py Script creado por v4char, ataque a la capa de aplicación protocolo TCP'
 
 if len(sys.argv) >= 3:
 
@@ -52,7 +52,7 @@ if len(sys.argv) >= 3:
          threads.append(conexion)
          conexion.start()
 
-      print "Empezando el ataque (+ web online | - web offline):\n"
+      print "Empezando el ataque (+ web online | - web offline)\n"
 
    print "\nCreando conexiones...\n"
    principal()
