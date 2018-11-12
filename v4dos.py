@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__='v4char'
+__author__='al4r0'
 
 import threading
 import sys
@@ -21,6 +21,8 @@ print '''
   [v4dos.py] Stress tool for your web server
 
 '''
+
+headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0'}
 
 if len(sys.argv) >= 3:
 
@@ -42,7 +44,7 @@ if len(sys.argv) >= 3:
             break
          else:
             try:
-               requests.get(url,timeout=8)
+               requests.get(url,timeout=8,headers=headers)
                estado = '+'
             except KeyboardInterrupt:
                activo = 0
